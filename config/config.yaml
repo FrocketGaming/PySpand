@@ -1,0 +1,6 @@
+matches:
+  - trigger: ";query_new"
+    replace: "SELECT * FROM TABLE.COLUMN;"
+
+  - trigger: ";quote"
+    replace: "Some quote"
